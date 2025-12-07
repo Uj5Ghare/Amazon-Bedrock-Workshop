@@ -30,6 +30,21 @@ Before you begin, ensure you have the following:
 4. **boto3**: AWS SDK for Python
 5. **FAISS**: Vector similarity search
 
+## Key Features
+
+### Models Used
+
+This workshop demonstrates various Amazon Bedrock foundation models:
+
+- **Text Models**:
+  - `us.amazon.nova-lite-v1:0` - Amazon Nova Lite
+  - `us.anthropic.claude-3-7-sonnet-20250219-v1:0` - Claude 3.7 Sonnet
+  - `stability.stable-diffusion-xl-v1` - Stable Diffusion XL
+
+- **Embedding Models**:
+  - `amazon.titan-embed-text-v2:0` - Text embeddings
+  - `amazon.titan-embed-image-v1` - Multimodal embeddings
+
 ## Installation
 
 1. Clone this repository:
@@ -348,20 +363,6 @@ python setup/getproxyurl.py
 
 This will display the URL to access your Streamlit app through SageMaker Studio.
 
-## Key Features
-
-### Models Used
-
-This workshop demonstrates various Amazon Bedrock foundation models:
-
-- **Text Models**:
-  - `us.amazon.nova-lite-v1:0` - Amazon Nova Lite
-  - `us.anthropic.claude-3-7-sonnet-20250219-v1:0` - Claude 3.7 Sonnet
-  - `stability.stable-diffusion-xl-v1` - Stable Diffusion XL
-
-- **Embedding Models**:
-  - `amazon.titan-embed-text-v2:0` - Text embeddings
-  - `amazon.titan-embed-image-v1` - Multimodal embeddings
 
 ## License
 
@@ -378,13 +379,13 @@ Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 
 
 ##
-<img src="data/images/1.png" width="49%"/>
-<img src="data/images/8.png" width="49%"/>
-<img src="data/images/3.png" width="49%"/>
-<img src="data/images/7.png" width="49%"/>
-<img src="data/images/6.png" width="49%"/>
-<img src="data/images/9.png" width="49%"/>
-<img src="data/images/4.png" width="49%"/>
-<img src="data/images/2.png" width="49%"/>
-<img src="data/images/5.gif" width="100%"/>
-<img src="data/images/10.png" width="100%"/>
+<img src="data/images/1.png"/>
+<img src="data/images/8.png"/>
+<img src="data/images/3.png"/>
+<img src="data/images/7.png"/>
+<img src="data/images/6.png"/>
+<img src="data/images/9.png"/>
+<img src="data/images/4.png"/>
+<img src="data/images/2.png"/>
+<img src="data/images/5.gif"/>
+<img src="data/images/10.png"/>
